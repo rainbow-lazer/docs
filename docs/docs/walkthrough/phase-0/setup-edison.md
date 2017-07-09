@@ -199,7 +199,7 @@ Press Esc and then type ':wq' and press Enter to write the file and quit
 
 After rebooting, log back in and type `iwgetid -r` to make sure you successfully connected to wifi.
 
-Run `ifconfig wlan0` to determine the IP address of the wireless interface, in case you need it to SSH below.
+Run `ifconfig wlan0` to determine the IP address of the wireless interface, in case you need it to SSH below. The IP address is the series of four numbers and periods after the 'inet addr:' label for example: 192.168.1.64. 
 
 Leave the serial window open in case you can't get in via SSH and need to fix your wifi config.
  
